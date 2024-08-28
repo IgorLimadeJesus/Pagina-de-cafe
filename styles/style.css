@@ -1,0 +1,66 @@
+
+body
+{   
+    background: url('chocolate.png') no-repeat center center fixed,no-repeat center center fixed, #b0625e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li{
+    padding-left:100px;
+    padding-right: 80px;
+    color: white;
+    font-family: Nerko One;
+    font-size: 25px;
+}
+
+.cafe
+{
+    position: absolute;
+    top: 40%;
+    padding-left: 10%;
+}
+
+.text
+{
+    line-height: 20px;
+    max-width: 1000px;
+    color: white;
+    font-family: Nerko One;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+
+h1
+{
+    position: absolute;
+    padding-left: 10%;
+    top: 10%;
+    font-family: Nerko One;
+    color: white;
+}
