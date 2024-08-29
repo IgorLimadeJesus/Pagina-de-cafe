@@ -9,13 +9,10 @@ body{
     margin: 0 auto;
 }
 
+
 .container a{
     text-decoration: none;
     color: white;
-}
-
-.container a:hover{
-    border: solid 1px black;
 }
 
 *{
