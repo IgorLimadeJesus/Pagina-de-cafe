@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'choco';
+    src: url('Fonts/choco_shake/ChocoShake.ttf') format('truetype'),
+    url('Fonts/choco_shake/ChocoShake.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  
+  }

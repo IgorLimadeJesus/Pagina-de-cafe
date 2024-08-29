@@ -1,19 +1,27 @@
+body{
+    background-color: #b0625e;
+}
 
-body
+.container
 {   
-    background: url('chocolate.png') no-repeat center center fixed,no-repeat center center fixed, #b0625e;
+    width: 100vw;
+    background-image: url('./imagens/chocolate.png');
+    margin: 0 auto;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.container a:hover{
+    border: solid 1px black;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.container
-{
-    max-width: 1400px;
-    margin: 0 auto;
 }
 
 nav
@@ -59,8 +67,14 @@ nav ul li{
 h1
 {
     position: absolute;
-    padding-left: 10%;
-    top: 10%;
+    padding-left: 15%;
+    top: 9%;
     font-family: Nerko One;
     color: white;
+}
+
+.pao{
+    position: absolute;
+    left: 70%;
+    top: 50%;
 }
